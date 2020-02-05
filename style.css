@@ -1,0 +1,381 @@
+body{
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  color: white;
+  font-family: 'Cinzel', serif;
+}
+
+img{
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+}
+
+#title{
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  height:40vh
+}
+#placeholder{
+  width: 100%;
+  display: block;
+}
+
+nav{
+  background-color: #3A3A3A;
+  text-align: center;
+}
+ul {
+  display:inline-block;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#navlist {
+  display: inline-block;
+}
+
+.navbar{
+  display: block;
+  text-decoration: none;
+  font-size: 37px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  color: white;
+  margin: 0;
+
+
+}
+.navbar:hover{
+  background-color: #474747;
+}
+
+.trailer{
+  display: block;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+#trailer{
+  display: inline-block;
+}
+
+.container{
+  width: 80%;
+  margin: 100px auto 200px;;
+  position: relative;
+  display: block;
+
+}
+.image{
+  display: inline-block;
+  width: 30%;
+}
+
+.left{
+  float: left;
+  margin-right: 100px;
+}
+
+.right {
+  float: right;
+  margin-left: 100px;
+}
+.image img{
+  max-width:100%;
+  max-height:100%;
+}
+ .paragraph{
+  display: inline-block;
+  font-size:  32px;
+  width: 50%;
+  height: 100%;
+}
+.cherry {
+  margin-top: 150px;
+  text-align: center;
+}
+
+.audioseparater{
+  margin-bottom:70px;
+}
+.audiocontainer{
+  display: inline-block;
+  width: 25%;
+  text-align: center;
+  margin: 0;
+  position: relative;
+}
+
+.mantis::after{
+  content: "";
+  background: url(./images/mantis_lords.jpg);
+  background-size: 100% 100%;
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+.greenpath::after{
+  content: "";
+  background: url(./images/greenpath.png);
+  background-size: 100% 100%;
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+.hallownest::after{
+  content: "";
+  background: url(./images/hallownest.jpeg);
+  background-size: 100% 100%;
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+.city::after{
+  content: "";
+  background: url(./images/city_of_tears.jpg);
+  background-size: 100% 100%;
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+.hornet::after{
+  content: "";
+  background: url(./images/hornet.jpg);
+  background-size: 100% 100%;
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+.sealed::after{
+  content: "";
+  background: url(./images/sealed.jpg);
+  background-size: 100% 100%;
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+.pure::after{
+  content: "";
+  background: url(./images/pure.jpg);
+  background-size: 100% 100%;
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+.radiance::after{
+  content: "";
+  background: url(./images/radiance.jpg);
+  background-size: 100% 100%;
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+.gods::after{
+  content: "";
+  background: url(./images/gods_glory.jpg);
+  background-size: 100% 100%;
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+.false::after{
+  content: "";
+  background: url(./images/false.jpg);
+  background-size: 100% 100%;
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+.grimm::after{
+  content: "";
+  background: url(./images/grimm2.jpg);
+  background-size: 100% 100%;
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+.nightmare::after{
+  content: "";
+  background: url(./images/grimm.jpg);
+  background-size: 100% 100%;
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+.dirt::after{
+  content: "";
+  background: url(./images/dirt.jpg);
+  background-size: 100% 100%;
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+.dung::after{
+  content: "";
+  background: url(./images/dung.jpg);
+  background-size: 100% 100%;
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+.main::after{
+  content: "";
+  background: url(./images/title.jpg);
+  background-size: 100% 100%;
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+.broken::after{
+  content: "";
+  background: url(./images/art/2.jpg);
+  background-size: 100% 100%;
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+.video{
+  display: block;
+  text-align: center;
+  margin-top: 100px;
+  padding-bottom: 100px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: 1px solid white;
+}
+
+#videos{
+  display: inline-block;
+}
+
+.artcontainer{
+  position: relative;
+  display: block;
+  height: 90vh;
+  top: 10%;
+  left: 0;
+  bottom: 0;
+  right: 0;
+
+}
+
+.art{
+  position: absolute;
+    top: 0;
+    bottom: 0;
+    left:0;
+    right:0;
+    margin: auto;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}

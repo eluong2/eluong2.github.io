@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" href="./style.css">
+  <link href="https://fonts.googleapis.com/css?family=Cinzel&display=swap" rel="stylesheet">
+  <title>Art</title>
+</head>
+<body>
+  <nav>
+    <ul>
+      <li id="navlist"><a class="navbar" href="./index.html">Synopsis</a></li>
+      <li id="navlist"><a class="navbar" href="./music.html">Music</a></li>
+      <li id="navlist"><a class="navbar" href="./art.html">Art</a></li>
+      <li id="navlist"><a class="navbar" href="./videos.html">Videos</a></li>
+    </ul>
+  </nav>
+
+  <div class="artcontainer">
+    <img src="./images/art/1.jpg" alt="" class="art">
+    <img src="./images/art/2.jpg" alt="" class="art">
+    <img src="./images/art/3.jpg" alt="" class="art">
+    <img src="./images/art/4.jpg" alt="" class="art">
+    <img src="./images/art/5.jpg" alt="" class="art">
+    <img src="./images/art/6.png" alt="" class="art">
+    <img src="./images/art/7.png" alt="" class="art">
+    <img src="./images/art/8.png" alt="" class="art">
+    <img src="./images/art/9.png" alt="" class="art">
+    <img src="./images/art/11.png" alt="" class="art">
+    <img src="./images/art/12.png" alt="" class="art">
+    <img src="./images/art/13.png" alt="" class="art">
+    <img src="./images/art/14.jpg" alt="" class="art">
+    <img src="./images/art/10.png" alt="" class="art">
+    <img src="./images/art/15.jpg" alt="" class="art">
+    <a class="prev" onclick="plusDivs(-1)">&#10094;</a>
+  <a class="next" onclick="plusDivs(1)">&#10095;</a>
+  </div>
+
+
+
+  <script>
+  var slideIndex = 1;
+  showDivs(slideIndex);
+
+  function plusDivs(n) {
+    showDivs(slideIndex += n);
+  }
+
+  function showDivs(n) {
+    var i;
+    var x = document.getElementsByClassName("art");
+    if (n > x.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = x.length}
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";
+    }
+    x[slideIndex-1].style.display = "block";
+  }
+  </script>
+</body>
+</html>
